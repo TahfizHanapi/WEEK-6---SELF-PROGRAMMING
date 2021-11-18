@@ -1,0 +1,33 @@
+package selfProgramming;
+
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				int amount = 500;
+				int balance = 2000;
+				
+				
+				if (amount <= balance)
+				{  
+			      balance = balance - amount;
+				  System.out.println("Acct new balance = " + balance);
+				}
+				
+				else 
+				{
+					balance = balance - amount;
+					System.out.println("You don't have sufficient balance");
+				}
+				
+				
+				
+				if (amount <= balance) //wrong 
+				    balance = balance - amount; // must have "{}"
+				    System.out.println("Acct new balance = "  + balance);
+
+
+		}
+	}
+
